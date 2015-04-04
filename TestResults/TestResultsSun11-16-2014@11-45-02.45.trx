@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3eb760bc-090a-4ff1-8b05-4d6cb3bc3774" name="dell@DELL-PC 2014-11-16 11:45:04" runUser="dell-PC\dell" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="14c4c245-61f2-4f4c-a255-6823bb2658c9">
+    <Deployment userDeploymentRoot="E:\C#.netTraining\SpecflowTraining\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="dell_DELL-PC 2014-11-16 11_45_04" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2014-11-16T11:45:04.0873078+00:00" queuing="2014-11-16T11:45:04.9193554+00:00" start="2014-11-16T11:45:05.0753643+00:00" finish="2014-11-16T11:45:29.4897607+00:00" />
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="2" executed="2" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddTwoNumbers" storage="e:\c#.nettraining\specflowtraining\specflowtrainingspecs\bin\debug\specflowtrainingspecs.dll" id="ab1edb41-ac17-1843-83b6-ade6463a42c9">
+      <Description>Add two numbers</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="mytag" />
+      </TestCategory>
+      <Execution id="b22ef014-fd10-4a87-a02b-0b04556f8804" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>SimpleCalculator</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/C#.netTraining/SpecflowTraining/SpecflowTrainingSpecs/bin/Debug/SpecflowTrainingSpecs.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecflowTrainingSpecs.Features.SimpleCalculatorFeature, SpecflowTrainingSpecs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddTwoNumbers" />
+    </UnitTest>
+    <UnitTest name="GoogleSearch" storage="e:\c#.nettraining\specflowtraining\specflowtrainingspecs\bin\debug\specflowtrainingspecs.dll" id="84dc18f8-41b9-2e4c-34a6-522df583ccca">
+      <Description>google search</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="mytag" />
+        <TestCategoryItem TestCategory="webdriver" />
+      </TestCategory>
+      <Execution id="ace99978-b57e-4e6e-9a41-9016e78ebb6a" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Google</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/C#.netTraining/SpecflowTraining/SpecflowTrainingSpecs/bin/Debug/SpecflowTrainingSpecs.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecflowTrainingSpecs.Features.GoogleFeature, SpecflowTrainingSpecs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GoogleSearch" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="84dc18f8-41b9-2e4c-34a6-522df583ccca" executionId="ace99978-b57e-4e6e-9a41-9016e78ebb6a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab1edb41-ac17-1843-83b6-ade6463a42c9" executionId="b22ef014-fd10-4a87-a02b-0b04556f8804" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ace99978-b57e-4e6e-9a41-9016e78ebb6a" testId="84dc18f8-41b9-2e4c-34a6-522df583ccca" testName="GoogleSearch" computerName="DELL-PC" duration="00:00:07.2826171" startTime="2014-11-16T11:45:05.1213669+00:00" endTime="2014-11-16T11:45:27.4186423+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ace99978-b57e-4e6e-9a41-9016e78ebb6a">
+      <Output>
+        <StdOut>Given I am on google home page
+-&gt; done: CommonBindingSteps.GivenIAmOnGoogleHomePage() (3.4s)
+And I search for homeaway
+-&gt; done: GoogleSteps.GivenISearchForHomeaway("homeaway") (0.7s)
+When I check content
+-&gt; done: GoogleSteps.ICheckContent() (0.0s)
+Then the result should show homeaway
+homeaway - Google Search
+-&gt; done: GoogleSteps.ThenTheResultShouldShowHomeway("homeaway") (3.1s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b22ef014-fd10-4a87-a02b-0b04556f8804" testId="ab1edb41-ac17-1843-83b6-ade6463a42c9" testName="AddTwoNumbers" computerName="DELL-PC" duration="00:00:00.1033674" startTime="2014-11-16T11:45:27.4346432+00:00" endTime="2014-11-16T11:45:29.3097504+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b22ef014-fd10-4a87-a02b-0b04556f8804">
+      <Output>
+        <StdOut>Given I have entered 50 and 70 into the calculator
+-&gt; pending: SimpleCalculatorSteps.GivenIHaveEnteredAndIntoTheCalculator(50, 70)
+When I press add
+-&gt; skipped because of previous errors
+Then the result should be 120 on the screen
+-&gt; skipped because of previous errors</StdOut>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. One or more step definitions are not implemented yet.
+  SimpleCalculatorSteps.GivenIHaveEnteredAndIntoTheCalculator(50, 70)</Message>
+          <StackTrace>   at lambda_method(Closure , String , Object[] )
+   at TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   at TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   at TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   at SpecflowTrainingSpecs.Features.SimpleCalculatorFeature.ScenarioCleanup() in e:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\Features\SimpleCalculator.feature.cs:line 0
+   at SpecflowTrainingSpecs.Features.SimpleCalculatorFeature.AddTwoNumbers() in e:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\Features\SimpleCalculator.feature:line 10
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

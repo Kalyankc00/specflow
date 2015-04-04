@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d082848c-c81c-4607-be55-94971dda65d7" name="dell@DELL-PC 2014-11-24 15:09:43" runUser="dell-PC\dell" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="5043772a-f9f5-48b9-9dbf-a00a3644d826">
+    <Deployment userDeploymentRoot="E:\C#.netTraining\SpecflowTraining\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="dell_DELL-PC 2014-11-24 15_09_43" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2014-11-24T15:09:43.2481681+00:00" queuing="2014-11-24T15:09:45.8983196+00:00" start="2014-11-24T15:09:46.4073488+00:00" finish="2014-11-24T15:15:48.6700690+00:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" passed="6" error="0" failed="1" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NavigateToDubaiHomePage" storage="e:\c#.nettraining\specflowtraining\specflowtrainingspecs\bin\debug\specflowtrainingspecs.dll" id="94917c22-3364-a2db-a705-bde0d01e3bd8">
+      <Description>Navigate to Dubai home page</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="aruna" />
+      </TestCategory>
+      <Execution id="5c14888d-7dc4-4355-804f-a01d42bcc316" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Property Search</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/C#.netTraining/SpecflowTraining/SpecflowTrainingSpecs/bin/Debug/SpecflowTrainingSpecs.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecflowTrainingSpecs.Features.PropertySearchFeature, SpecflowTrainingSpecs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NavigateToDubaiHomePage" />
+    </UnitTest>
+    <UnitTest name="GoogleSearch" storage="e:\c#.nettraining\specflowtraining\specflowtrainingspecs\bin\debug\specflowtrainingspecs.dll" id="84dc18f8-41b9-2e4c-34a6-522df583ccca">
+      <Description>google search</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="webdriver" />
+      </TestCategory>
+      <Execution id="a2a917e8-961a-45d3-a2f3-5732df250c85" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Google</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/C#.netTraining/SpecflowTraining/SpecflowTrainingSpecs/bin/Debug/SpecflowTrainingSpecs.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecflowTrainingSpecs.Features.GoogleFeature, SpecflowTrainingSpecs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GoogleSearch" />
+    </UnitTest>
+    <UnitTest name="GoogleSearchWithDifferetExample" storage="e:\c#.nettraining\specflowtraining\specflowtrainingspecs\bin\debug\specflowtrainingspecs.dll" id="6343389f-3d0b-70ab-f4f6-3284c40a48e9">
+      <Description>google search with differet example</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="webdriver" />
+      </TestCategory>
+      <Execution id="d7327c2e-5427-4653-bcd4-408cd626f538" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Google</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/C#.netTraining/SpecflowTraining/SpecflowTrainingSpecs/bin/Debug/SpecflowTrainingSpecs.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecflowTrainingSpecs.Features.GoogleFeature, SpecflowTrainingSpecs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GoogleSearchWithDifferetExample" />
+    </UnitTest>
+    <UnitTest name="GoogleSearchFor_Gilmund" storage="e:\c#.nettraining\specflowtraining\specflowtrainingspecs\bin\debug\specflowtrainingspecs.dll" id="d08a9b7a-c858-8ec9-87a3-5d885d9158b3">
+      <Description>google search for</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="webdriver" />
+      </TestCategory>
+      <Execution id="8871882b-9d9f-435a-a560-f2fd54b08ea6" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Google</Value>
+        </Property>
+        <Property>
+          <Key>VariantName</Key>
+          <Value>gilmund</Value>
+        </Property>
+        <Property>
+          <Key>Parameter:SearchQuery</Key>
+          <Value>gilmund</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/C#.netTraining/SpecflowTraining/SpecflowTrainingSpecs/bin/Debug/SpecflowTrainingSpecs.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecflowTrainingSpecs.Features.GoogleFeature, SpecflowTrainingSpecs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GoogleSearchFor_Gilmund" />
+    </UnitTest>
+    <UnitTest name="SearchForLowestPriceAppartmentHave2Bathrooms" storage="e:\c#.nettraining\specflowtraining\specflowtrainingspecs\bin\debug\specflowtrainingspecs.dll" id="88fc3bc5-4817-73ae-e21e-092f01be36be">
+      <Description>Search for lowest price appartment have 2 bathrooms</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="webdriver" />
+      </TestCategory>
+      <Execution id="fb2074ec-56c3-494b-b9d7-6706012a98c4" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Property Search</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/C#.netTraining/SpecflowTraining/SpecflowTrainingSpecs/bin/Debug/SpecflowTrainingSpecs.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecflowTrainingSpecs.Features.PropertySearchFeature, SpecflowTrainingSpecs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchForLowestPriceAppartmentHave2Bathrooms" />
+    </UnitTest>
+    <UnitTest name="AddTwoNumbers" storage="e:\c#.nettraining\specflowtraining\specflowtrainingspecs\bin\debug\specflowtrainingspecs.dll" id="ab1edb41-ac17-1843-83b6-ade6463a42c9">
+      <Description>Add two numbers</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="mytag" />
+      </TestCategory>
+      <Execution id="24dd6e72-31c6-4ad3-89a0-c393dd1279a3" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>SimpleCalculator</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/C#.netTraining/SpecflowTraining/SpecflowTrainingSpecs/bin/Debug/SpecflowTrainingSpecs.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecflowTrainingSpecs.Features.SimpleCalculatorFeature, SpecflowTrainingSpecs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddTwoNumbers" />
+    </UnitTest>
+    <UnitTest name="GoogleSearchFor_Aruna" storage="e:\c#.nettraining\specflowtraining\specflowtrainingspecs\bin\debug\specflowtrainingspecs.dll" id="e60d470d-3a0d-06a2-0356-20525cc27a4e">
+      <Description>google search for</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="webdriver" />
+      </TestCategory>
+      <Execution id="077455d4-4953-42c1-919a-9a13c4a0914b" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Google</Value>
+        </Property>
+        <Property>
+          <Key>VariantName</Key>
+          <Value>aruna</Value>
+        </Property>
+        <Property>
+          <Key>Parameter:SearchQuery</Key>
+          <Value>aruna</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/C#.netTraining/SpecflowTraining/SpecflowTrainingSpecs/bin/Debug/SpecflowTrainingSpecs.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecflowTrainingSpecs.Features.GoogleFeature, SpecflowTrainingSpecs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GoogleSearchFor_Aruna" />
+    </UnitTest>
+    <UnitTest name="GoogleSearchFor_London" storage="e:\c#.nettraining\specflowtraining\specflowtrainingspecs\bin\debug\specflowtrainingspecs.dll" id="6dddcb8a-d7c3-74c2-9732-34d1b419a1f7">
+      <Description>google search for</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="webdriver" />
+      </TestCategory>
+      <Execution id="83263575-e5bd-4a6b-9d5b-556422b01386" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Google</Value>
+        </Property>
+        <Property>
+          <Key>VariantName</Key>
+          <Value>london</Value>
+        </Property>
+        <Property>
+          <Key>Parameter:SearchQuery</Key>
+          <Value>london</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/C#.netTraining/SpecflowTraining/SpecflowTrainingSpecs/bin/Debug/SpecflowTrainingSpecs.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecflowTrainingSpecs.Features.GoogleFeature, SpecflowTrainingSpecs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GoogleSearchFor_London" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="84dc18f8-41b9-2e4c-34a6-522df583ccca" executionId="a2a917e8-961a-45d3-a2f3-5732df250c85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e60d470d-3a0d-06a2-0356-20525cc27a4e" executionId="077455d4-4953-42c1-919a-9a13c4a0914b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d08a9b7a-c858-8ec9-87a3-5d885d9158b3" executionId="8871882b-9d9f-435a-a560-f2fd54b08ea6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6dddcb8a-d7c3-74c2-9732-34d1b419a1f7" executionId="83263575-e5bd-4a6b-9d5b-556422b01386" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6343389f-3d0b-70ab-f4f6-3284c40a48e9" executionId="d7327c2e-5427-4653-bcd4-408cd626f538" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="94917c22-3364-a2db-a705-bde0d01e3bd8" executionId="5c14888d-7dc4-4355-804f-a01d42bcc316" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="88fc3bc5-4817-73ae-e21e-092f01be36be" executionId="fb2074ec-56c3-494b-b9d7-6706012a98c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab1edb41-ac17-1843-83b6-ade6463a42c9" executionId="24dd6e72-31c6-4ad3-89a0-c393dd1279a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a2a917e8-961a-45d3-a2f3-5732df250c85" testId="84dc18f8-41b9-2e4c-34a6-522df583ccca" testName="GoogleSearch" computerName="DELL-PC" duration="00:00:33.5567370" startTime="2014-11-24T15:09:46.6423622+00:00" endTime="2014-11-24T15:10:21.2383410+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2a917e8-961a-45d3-a2f3-5732df250c85">
+      <Output>
+        <StdOut>Given I am on google home page
+-&gt; done: CommonBindingSteps.GivenIAmOnGoogleHomePage() (4.3s)
+And I search for homeaway
+-&gt; done: GoogleSteps.GivenISearchForHomeaway("homeaway") (0.6s)
+When I check content
+-&gt; done: GoogleSteps.ICheckContent() (0.0s)
+Then the result should show homeaway
+homeaway - Google Search
+-&gt; done: GoogleSteps.ThenTheResultShouldShowHomeway("homeaway") (3.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="077455d4-4953-42c1-919a-9a13c4a0914b" testId="e60d470d-3a0d-06a2-0356-20525cc27a4e" testName="GoogleSearchFor_Aruna" computerName="DELL-PC" duration="00:00:35.4709225" startTime="2014-11-24T15:10:21.2453414+00:00" endTime="2014-11-24T15:10:56.7473720+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="077455d4-4953-42c1-919a-9a13c4a0914b">
+      <Output>
+        <StdOut>Given I am on google home page
+-&gt; done: CommonBindingSteps.GivenIAmOnGoogleHomePage() (4.7s)
+And I search for aruna
+-&gt; done: GoogleSteps.GivenISearchForHomeaway("aruna") (0.6s)
+When I check content
+-&gt; done: GoogleSteps.ICheckContent() (0.0s)
+Then the result should show aruna
+aruna - Google Search
+-&gt; done: GoogleSteps.ThenTheResultShouldShowHomeway("aruna") (3.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8871882b-9d9f-435a-a560-f2fd54b08ea6" testId="d08a9b7a-c858-8ec9-87a3-5d885d9158b3" testName="GoogleSearchFor_Gilmund" computerName="DELL-PC" duration="00:00:32.7407304" startTime="2014-11-24T15:10:56.7693732+00:00" endTime="2014-11-24T15:11:29.5152462+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8871882b-9d9f-435a-a560-f2fd54b08ea6">
+      <Output>
+        <StdOut>Given I am on google home page
+-&gt; done: CommonBindingSteps.GivenIAmOnGoogleHomePage() (5.6s)
+And I search for gilmund
+-&gt; done: GoogleSteps.GivenISearchForHomeaway("gilmund") (0.7s)
+When I check content
+-&gt; done: GoogleSteps.ICheckContent() (0.0s)
+Then the result should show gilmund
+gilmund - Google Search
+-&gt; done: GoogleSteps.ThenTheResultShouldShowHomeway("gilmund") (3.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="83263575-e5bd-4a6b-9d5b-556422b01386" testId="6dddcb8a-d7c3-74c2-9732-34d1b419a1f7" testName="GoogleSearchFor_London" computerName="DELL-PC" duration="00:00:24.1661666" startTime="2014-11-24T15:11:29.5392476+00:00" endTime="2014-11-24T15:11:53.7306312+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83263575-e5bd-4a6b-9d5b-556422b01386">
+      <Output>
+        <StdOut>Given I am on google home page
+-&gt; done: CommonBindingSteps.GivenIAmOnGoogleHomePage() (3.9s)
+And I search for london
+-&gt; done: GoogleSteps.GivenISearchForHomeaway("london") (0.6s)
+When I check content
+-&gt; done: GoogleSteps.ICheckContent() (0.0s)
+Then the result should show london
+london - Google Search
+-&gt; done: GoogleSteps.ThenTheResultShouldShowHomeway("london") (3.1s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d7327c2e-5427-4653-bcd4-408cd626f538" testId="6343389f-3d0b-70ab-f4f6-3284c40a48e9" testName="GoogleSearchWithDifferetExample" computerName="DELL-PC" duration="00:00:37.3190048" startTime="2014-11-24T15:11:53.9316427+00:00" endTime="2014-11-24T15:12:31.4777902+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7327c2e-5427-4653-bcd4-408cd626f538">
+      <Output>
+        <StdOut>Given I am on google home page
+-&gt; done: CommonBindingSteps.GivenIAmOnGoogleHomePage() (4.0s)
+And I search
+  --- table step argument ---
+  | SearchQuery |
+  | aruna       |
+  | gilmund     |
+  | london      |
+aruna - Google Search
+gilmund - Google Search
+london - Google Search
+-&gt; done: GoogleSteps.GivenISearch(&lt;table&gt;) (12.0s)
+When I check content
+-&gt; done: GoogleSteps.ICheckContent() (0.0s)
+Then I should the correct result
+-&gt; done: GoogleSteps.ThenIShouldTheCorrectResult() (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5c14888d-7dc4-4355-804f-a01d42bcc316" testId="94917c22-3364-a2db-a705-bde0d01e3bd8" testName="NavigateToDubaiHomePage" computerName="DELL-PC" duration="00:00:32.5047062" startTime="2014-11-24T15:12:31.5597949+00:00" endTime="2014-11-24T15:13:04.2726660+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c14888d-7dc4-4355-804f-a01d42bcc316">
+      <Output>
+        <StdOut>Given I am on dubizzle dubai home page
+-&gt; done: CommonBindingSteps.GivenIAmOnDubizzleDubaiHomePage() (11.7s)
+When I check for content
+-&gt; done: PropertySearchSteps.WhenICheckForContent() (0.0s)
+Then I the title of home page should be dubizzle Dubai Classifieds
+-&gt; done: PropertySearchSteps.ThenITheTitleOfHomePageShouldBeDubizzleDubaiClassifieds("dubizzle Dubai Cl...") (0.8s)
+And I should see place an ad option
+-&gt; done: PropertySearchSteps.ThenIShouldSeePlaceAnAdOption("place an ad option") (0.2s)
+And I should see search form
+-&gt; done: PropertySearchSteps.ThenIShouldSeePlaceAnAdOption("search form") (0.0s)
+And I should see quick links
+-&gt; done: PropertySearchSteps.ThenIShouldSeePlaceAnAdOption("quick links") (0.1s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fb2074ec-56c3-494b-b9d7-6706012a98c4" testId="88fc3bc5-4817-73ae-e21e-092f01be36be" testName="SearchForLowestPriceAppartmentHave2Bathrooms" computerName="DELL-PC" duration="00:02:43.8759119" startTime="2014-11-24T15:13:04.2806665+00:00" endTime="2014-11-24T15:15:48.1700404+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb2074ec-56c3-494b-b9d7-6706012a98c4">
+      <Output>
+        <StdOut>Given I am on dubizzle dubai home page
+-&gt; done: CommonBindingSteps.GivenIAmOnDubizzleDubaiHomePage() (11.3s)
+When I search for Property For Rent
+-&gt; done: PropertySearchSteps.WhenISearchForPropertyForRent("Property For Rent") (7.4s)
+And select Residential Units for Rent
+-&gt; done: PropertySearchSteps.WhenSelectResidentialUnitsForRent("Residential Units...") (5.7s)
+And select Villa/House for Rent
+-&gt; done: PropertySearchSteps.WhenSelectVillaHouseForRent("Villa/House for Rent") (24.3s)
+And add search in neighborhoods of Dubai Marina area
+-&gt; done: PropertySearchSteps.WhenAddSearchInNeighborhoodsOfDubaiMarinaArea("Dubai Marina") (32.6s)
+And I search
+-&gt; done: PropertySearchSteps.WhenISearch() (0.0s)
+And I narrow down search to minimum 2 bathroom
+-&gt; done: PropertySearchSteps.WhenINarrowDownSearchToMinimumBathroom("2") (17.5s)
+And I search again
+-&gt; done: PropertySearchSteps.WhenISearchAgain() (0.0s)
+And I sort search results on Price Highest to Lowest
+-&gt; done: PropertySearchSteps.WhenISortSearchResultsOnPriceHighestToLowest("Price Highest to ...") (33.6s)
+And I open the last item in the search
+-&gt; error: Element is not currently visible and so may not be interacted with
+Then I should see last item have minimum 2 bathroom
+-&gt; skipped because of previous errors</StdOut>
+        <ErrorInfo>
+          <Message>Test method SpecflowTrainingSpecs.Features.PropertySearchFeature.SearchForLowestPriceAppartmentHave2Bathrooms threw exception: 
+OpenQA.Selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with</Message>
+          <StackTrace>    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at OpenQA.Selenium.Support.PageObjects.WebElementProxy.Click()
+   at SpecflowTraining.SearchRefinement.GotoLastPageOnSearch() in e:\C#.netTraining\SpecflowTraining\SpecflowTraining\Pages\PropertySearch\SearchRefinement.cs:line 112
+   at SpecflowTrainingSpecs.Features.StepDefination.PropertySearchSteps.WhenIOpenTheLastItemInTheSearch() in e:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\Features\StepDefination\PropertySearchSteps.cs:line 73
+   at lambda_method(Closure , IContextManager )
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   at SpecflowTrainingSpecs.Features.PropertySearchFeature.ScenarioCleanup() in e:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\Features\PropertySearch.feature.cs:line 0
+   at SpecflowTrainingSpecs.Features.PropertySearchFeature.SearchForLowestPriceAppartmentHave2Bathrooms() in e:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\Features\PropertySearch.feature:line 29
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="24dd6e72-31c6-4ad3-89a0-c393dd1279a3" testId="ab1edb41-ac17-1843-83b6-ade6463a42c9" testName="AddTwoNumbers" computerName="DELL-PC" duration="00:00:00.0984233" startTime="2014-11-24T15:15:48.1720405+00:00" endTime="2014-11-24T15:15:48.3310496+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="24dd6e72-31c6-4ad3-89a0-c393dd1279a3">
+      <Output>
+        <StdOut>Given I have entered 50 and 70 into the calculator
+-&gt; pending: SimpleCalculatorSteps.GivenIHaveEnteredAndIntoTheCalculator(50, 70)
+When I press add
+-&gt; skipped because of previous errors
+Then the result should be 120 on the screen
+-&gt; skipped because of previous errors</StdOut>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. One or more step definitions are not implemented yet.
+  SimpleCalculatorSteps.GivenIHaveEnteredAndIntoTheCalculator(50, 70)</Message>
+          <StackTrace>   at lambda_method(Closure , String , Object[] )
+   at TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   at TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   at TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   at SpecflowTrainingSpecs.Features.SimpleCalculatorFeature.ScenarioCleanup() in e:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\Features\SimpleCalculator.feature.cs:line 0
+   at SpecflowTrainingSpecs.Features.SimpleCalculatorFeature.AddTwoNumbers() in e:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\Features\SimpleCalculator.feature:line 10
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

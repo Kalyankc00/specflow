@@ -1,0 +1,28 @@
+C:\Users\dell\documents\visual studio 2013\Projects\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\SpecflowTrainingSpecs.dll.config
+C:\Users\dell\documents\visual studio 2013\Projects\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\SpecflowTrainingSpecs.dll
+C:\Users\dell\documents\visual studio 2013\Projects\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\SpecflowTrainingSpecs.pdb
+C:\Users\dell\documents\visual studio 2013\Projects\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\SpecflowTraining.dll
+C:\Users\dell\documents\visual studio 2013\Projects\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\dell\documents\visual studio 2013\Projects\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\WebDriver.dll
+C:\Users\dell\documents\visual studio 2013\Projects\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\WebDriver.Support.dll
+C:\Users\dell\documents\visual studio 2013\Projects\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\SpecflowTraining.pdb
+C:\Users\dell\documents\visual studio 2013\Projects\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\WebDriver.xml
+C:\Users\dell\documents\visual studio 2013\Projects\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\WebDriver.Support.xml
+C:\Users\dell\documents\visual studio 2013\Projects\SpecflowTraining\SpecflowTrainingSpecs\obj\Debug\SpecflowTrainingSpecs.csprojResolveAssemblyReference.cache
+C:\Users\dell\documents\visual studio 2013\Projects\SpecflowTraining\SpecflowTrainingSpecs\obj\Debug\SpecflowTrainingSpecs.dll
+C:\Users\dell\documents\visual studio 2013\Projects\SpecflowTraining\SpecflowTrainingSpecs\obj\Debug\SpecflowTrainingSpecs.pdb
+E:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\Default.srprofile
+E:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\SpecflowTrainingSpecs.dll.config
+E:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\SpecflowTrainingSpecs.dll
+E:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\SpecflowTrainingSpecs.pdb
+E:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\SpecflowTraining.dll
+E:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\TechTalk.SpecFlow.dll
+E:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\TechTalk.SpecRun.dll
+E:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\WebDriver.dll
+E:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\WebDriver.Support.dll
+E:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\SpecflowTraining.pdb
+E:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\WebDriver.xml
+E:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\bin\Debug\WebDriver.Support.xml
+E:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\obj\Debug\SpecflowTrainingSpecs.csprojResolveAssemblyReference.cache
+E:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\obj\Debug\SpecflowTrainingSpecs.dll
+E:\C#.netTraining\SpecflowTraining\SpecflowTrainingSpecs\obj\Debug\SpecflowTrainingSpecs.pdb
