@@ -24,3 +24,16 @@ E:\C#.netTraining\SpecflowTraining\SpecflowTraining\obj\Debug\SpecflowTraining.d
 E:\C#.netTraining\SpecflowTraining\SpecflowTraining\obj\Debug\SpecflowTraining.pdb
 E:\C#.netTraining\SpecflowTraining\SpecflowTraining\bin\Debug\SpecflowTraining.dll.CodeAnalysisLog.xml
 E:\C#.netTraining\SpecflowTraining\SpecflowTraining\bin\Debug\SpecflowTraining.dll.lastcodeanalysissucceeded
+E:\Gittraining\specflow\SpecflowTraining\bin\Debug\SpecflowTraining.dll.config
+E:\Gittraining\specflow\SpecflowTraining\bin\Debug\SpecflowTraining.dll
+E:\Gittraining\specflow\SpecflowTraining\bin\Debug\SpecflowTraining.pdb
+E:\Gittraining\specflow\SpecflowTraining\bin\Debug\TechTalk.SpecFlow.dll
+E:\Gittraining\specflow\SpecflowTraining\bin\Debug\WebDriver.dll
+E:\Gittraining\specflow\SpecflowTraining\bin\Debug\WebDriver.Support.dll
+E:\Gittraining\specflow\SpecflowTraining\bin\Debug\WebDriver.xml
+E:\Gittraining\specflow\SpecflowTraining\bin\Debug\WebDriver.Support.xml
+E:\Gittraining\specflow\SpecflowTraining\obj\Debug\SpecflowTrainingPages.csprojResolveAssemblyReference.cache
+E:\Gittraining\specflow\SpecflowTraining\obj\Debug\SpecflowTraining.Properties.Resources.resources
+E:\Gittraining\specflow\SpecflowTraining\obj\Debug\SpecflowTrainingPages.csproj.GenerateResource.Cache
+E:\Gittraining\specflow\SpecflowTraining\obj\Debug\SpecflowTraining.dll
+E:\Gittraining\specflow\SpecflowTraining\obj\Debug\SpecflowTraining.pdb
